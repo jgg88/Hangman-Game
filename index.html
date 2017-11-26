@@ -9,21 +9,23 @@
 	</head>
 
 	<body>
+		<header>
+			<h1>Hang-Man:</h1>
+			<h3>Birds of North Carolina</h3>
+		</header>
+
+
 		<div class="container">
-			<header>
-				<h1>Hang-Man:</h1>
-				<h3>Birds of North Carolina</h3>
-			</header>
-			<div id="wins"> </div>
 			<p>Current Word</p>
 			<div id="underscores"></div>
-			<div class="answer"> </div>
 			<p>Guesses remaining:</p>
-			<div id="remaining"> </div>
+			<div id="remaining"></div>
 			<div id="wrongGuess"></div>
+			<strong>Wins: </strong><span id="wins"></span><br>
+			<strong>Losses: </strong><span id="losses"></span>
 		</div>
 
-		<script type="text/javascript" src="assets/javascript/game.js"></script>
+		<script src="assets/javascript/game.js"></script>
 	</body>
 	</html>
 

@@ -1,46 +1,66 @@
-.container {
-	border: 3px solid black;
-	width: 50%;
-	position: absolute;
-	left: 25%;
-	bottom: 25%;
+body {
+	background-color: #D3E9F9;
 }
 
 header {
-	font-size: 20px;
+	color: #5086AD;
+	font-size: 50px;
 	text-align: center;
-	margin: 15px auto;
-	height: 100px;
+	margin: 30px auto;
+	height: 70px;
 	width: 40%;
+}
+
+.container {
+	background-color: #8EBBDC;
+	color: #FFFFFF;
+	width: 50%;
+	position: absolute;
+	text-align: center;
+	margin: 50px;	
+	margin-left: 345px;
+	padding: 20px;
+	padding-bottom: 50px;
+
 }
 
 p {
 	font-size: 20px;
 	text-align: center;
-	margin: 50px auto;
+	margin: 20px auto;
 	height: 20px;
 	width: 40%;
 }
 
-.wins {
+#wins, strong {
 	font-size: 30px;
 	text-align: center;
 	margin: 50px auto;
 	height: 20px;
 	width: 40%;
 }
+
+#losses {
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto;
+	height: 20px;
+	width: 40%;
+}
+
 
 #underscores {
 	font-size: 30px;
 	text-align: center;
-	margin: 10px auto;
+	margin: 30px
 	height: 20px;
+	padding-bottom: 60px;
 }
 
 #remaining {
 	font-size: 30px;
 	text-align: center;
-	margin: 50px auto;
+	margin: 20px auto;
 	height: 20px;
 	width: 40%;
 }
